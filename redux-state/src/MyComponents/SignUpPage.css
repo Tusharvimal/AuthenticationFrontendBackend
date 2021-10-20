@@ -1,0 +1,85 @@
+.SignupMain{
+    margin: 30px auto;
+    /* width: 30%; */
+    width: 400px;
+}
+.signupinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;  
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+.signupinfo > h1{
+    font-family: 'Pacifico', cursive;;
+}
+.useinsta{
+    font-size: 18px;
+    margin: 20px;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+
+.signupinfo > form{
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.terms{
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+
+.signupinfo > form > input{
+    width: 100%;
+    min-height: 25px;
+    margin: 5px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.signupinfo > form > button{
+    width: 105%;
+    min-height: 30px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: white;
+    border: 1px solid #0095f6;
+    cursor: pointer;
+}
+
+.signupinfo > form > button:disabled{
+    width: 105%;
+    min-height: 30px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    background-color: #93cdf3;
+    color: white;
+    border: 1px solid #93cdf3;
+    cursor: pointer;
+}
+
+.loginRecom{
+    margin-top: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+}
+.errors{
+    margin: auto 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: red;
+}
